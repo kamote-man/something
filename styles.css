@@ -1,0 +1,179 @@
+/*backColor #0f0f0f
+#2e2e2e
+  */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+/* font-family: 'Be Vietnam Pro', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Roboto&display=swap');
+
+/* font-family: 'Roboto', sans-serif;  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* font-family: 'Merriweather', serif; */
+
+
+body{
+  background-color: #424443;
+width: 90%;
+margin: auto;
+font-size: 10px;
+}
+ul{
+  list-style-type: none;
+}
+
+
+nav{
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2e2e;
+  color: white;
+
+  border-radius: 20px;
+}
+
+nav ul{
+  display: flex;
+  padding-left: 0;
+  width: 100%;
+  font-size: 1.4rem;
+
+
+}
+
+nav ul li{
+  border-right: 1px solid white;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-shadow: 3px 3px 4px black;
+
+  padding: 0 5% 0 5%;
+}
+
+nav ul li:last-of-type{
+  border: none;
+  padding-right: 0;
+}
+nav ul li:first-of-type{
+  padding-left: 10%;
+}
+
+/* The End of the Nav styles  */
+
+main{
+background: linear-gradient(13deg, rgba(69,68,73,1) 0%, rgba(131,131,139,0.0445224033312851) 100%), url("images/beach.jpg ");
+background-size: cover;
+width: 100%;
+height: 500px;
+margin: 20px 0px 20px 0px;
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+}
+
+.bio{
+  background-color: #2e2e2e;
+width: 100%;
+height: 150px;
+margin: 20px 0px 20px 0px;
+border-radius: 10px;
+font-family: 'Merriweather', serif;
+color: white;
+text-shadow: 2px 2px 4px black;
+font-size: 0.8rem;
+padding-top: 0.4rem;
+
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.box{
+  background-color:  #2e2e2e;
+width: 100%;
+height: 250px;
+border-radius: 10px;
+
+font-family: 'Merriweather', serif;
+color: white;
+text-shadow: 2px 2px 4px black;
+font-size: 0.8rem;
+padding-top: 0.4rem;
+}
+
+footer{
+  background-color:  #2e2e2e;
+width: 100%;
+height: 250px;
+border-radius: 10px;
+
+font-family: 'Merriweather', serif;
+color: white;
+text-shadow: 2px 2px 4px black;
+font-size: 0.8rem;
+padding-top: 0.4rem;
+margin: 20px 0px 20px 0px;
+
+}
+
+main h1{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 3px 3px 4px black;
+
+}
+
+.bio img{
+  border-radius: 100px;
+  padding: 10px 10px 10px 10px;
+  float: left;
+}
+
+.bio h3{
+  font-size: 1.1rem;
+  margin: 16px 0 5px 0;
+
+}
+.bio p{
+  margin-top: 6px;
+}
+
+.box p{
+  padding: 0.4rem;
+}
+.box h3{
+  padding: 0.4rem;
+
+}
+
+.contacts{
+  float: left;
+  margin-right: 50px;
+}
+
+.media li{
+  margin-bottom: 10px;
+
+}
+footer h2{
+padding-left: 20px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
