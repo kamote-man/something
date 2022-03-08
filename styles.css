@@ -43,7 +43,7 @@ nav ul{
   display: flex;
   padding-left: 0;
   width: 100%;
-  font-size: 1.4rem;
+  font-size:  calc(0.1rem + 5vw);
 
 
 }
@@ -131,7 +131,7 @@ margin: 20px 0px 20px 0px;
 main h1{
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: calc(2rem + 6vw);
   text-shadow: 3px 3px 4px black;
 
 }
